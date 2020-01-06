@@ -1,4 +1,4 @@
-package figlet4go
+package figletgo
 
 // RenderOptions are used to set color or maybe future
 // options to the AsciiRenderer

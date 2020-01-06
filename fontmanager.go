@@ -1,4 +1,4 @@
-package figlet4go
+package figletgo
 
 import (
 	"errors"
@@ -17,8 +17,9 @@ const extension string = "flf"
 
 // Builtin fonts to load
 var defaultFonts []string = []string{
-	"standard",
-	"larry3d",
+	"standard", "larry3d", "ogre",
+	"serifcap", "slant", "slscript",
+	"smslant", "speed", "bulbhead",
 }
 
 // Holds the available fonts
